@@ -6,13 +6,17 @@ body{
     font-family: "Montserrat", sans-serif;
     width: 1140px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #181719;
+}
+
+header{
+    height: 1080px;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 0;
 }
 .logo{
     border: 1px solid white;
@@ -44,4 +48,82 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
+}
+
+/* Banner container styles */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+.banner-content{
+    width: 410px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-content a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.banner-picture{
+
+}
+.banner-picture img{
+    width: 540px;
+}
+
+/* banner profile cards */
+.banner-profile-card {
+    padding: 30px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.profile-card{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.profile-name-title{
+}
+.profile-name-title h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: white;
+}
+.profile-name-title h4{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 6px;
+}
+.banner-profile-card h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #FFFFFF;
 }
