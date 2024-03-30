@@ -94,6 +94,12 @@ header{
     width: 400px;
     box-sizing: border-box;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
+    float: right;
+    position: relative;
+    right: 30px;
+    top: -100px;
+    z-index: 1;
+    background: black;
 }
 .profile-card{
     display: flex;
@@ -127,3 +133,6 @@ header{
     line-height: 34px;
     color: #FFFFFF;
 }
+
+
+/* Responsive mobile device */
