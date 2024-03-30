@@ -18,9 +18,11 @@ header{
     justify-content: space-between;
     padding: 30px 0;
 }
-.logo{
+.logo {
     border: 1px solid white;
     padding: 8px;
+    width: 100px;
+    text-align: center;
 }
 .logo h2 {
     font-size: 14px;
@@ -29,7 +31,7 @@ header{
     color: white;
 }
 .menu{
-    
+    width: 460px;
 }
 .menu ul{
     display: flex;
@@ -136,3 +138,72 @@ header{
 
 
 /* Responsive mobile device */
+@media screen and (max-width: 576px) {
+    body{
+        width: 576px;
+        margin: 0 auto;
+    }
+    .nav{
+        flex-direction: column;
+        gap: 100px;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu a{
+        /* text-align: center; */
+    }
+    .banner-container{
+        flex-direction: column;
+        gap: 100px;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .banner-picture img{
+        width: 350px;
+    }
+    .menu{
+        width: 60px;
+    }
+    .banner-profile-card {
+        padding: 30px;
+        width: 300px;
+        box-sizing: border-box;
+        box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
+        float: right;
+        position: relative;
+        right: 130px;
+        top: -100px;
+        z-index: 1;
+        background: black;
+    }
+    .banner-profile-card h2{
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .banner-title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46px;
+        width: 500px;
+    }
+    .banner-description{
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 400;
+        width: 250px;
+    }
+    .banner-content{
+        width: 350px;
+    }
+    .logo{
+        /* width: 350px; */
+    }
+    .log h2{
+        /* width: 350px; */
+    }
+}
